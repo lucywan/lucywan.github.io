@@ -1,7 +1,4 @@
 
-# Google Analytics
-google_analytics: UA-128069399-1
-
 title: My Resume
 url: 'http://junlulocky.com'
 baseurl: '/lucywan.github.io' #change it according to your repository name
@@ -24,3 +21,5 @@ linkedin: linkedin.com/in/lucy-wan-6844a1163  ## your linkedin account url
 
 
 # Update all the sections by editing the files inside _includes folder.
+
+google_analytics: UA-128069399-1
