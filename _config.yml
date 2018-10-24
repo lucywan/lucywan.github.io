@@ -1,4 +1,7 @@
 
+# Google Analytics
+google_analytics: UA-128069399-1
+
 title: My Resume
 url: 'http://junlulocky.com'
 baseurl: '/lucywan.github.io' #change it according to your repository name
