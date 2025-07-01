@@ -2,7 +2,15 @@
 <html>
 <body>
 
-<embed width="1280" height="480" src="https://lucywan.github.io/Ploppy_Pigeon_Summer_Edition2.swf">
+    <div id="ploppypidgeon"></div>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script>
+
+Object.assign(document.getElementById("ploppypidgeon").appendChild(window.RufflePlayer.newest().createPlayer()), {
+            width: 1280,
+            height: 480,
+        }).load({ url: "https://lucywan.github.io/Ploppy_Pigeon_Summer_Edition2.swf" });
+        </script>
 
 </body>
 </html>
