@@ -2,7 +2,17 @@
 <html>
 <body>
 
-<embed width="1280" height="480" src="https://lucywan.github.io/LOF.swf">
+
+  <div id="lof"></div>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script>
+
+Object.assign(document.getElementById("lof").appendChild(window.RufflePlayer.newest().createPlayer()), {
+            width: 1280,
+            height: 480,
+        }).load({ url: "https://lucywan.github.io/LOF.swf" });
+        </script>
+
 
 </body>
 </html>
