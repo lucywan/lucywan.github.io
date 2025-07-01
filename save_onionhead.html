@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
+<div id="onionhead"></div>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script>
 
-<embed width="640" height="480" src="https://lucywan.github.io/Save_Onionhead_Flash.swf">
+Object.assign(document.getElementById("onionhead").appendChild(window.RufflePlayer.newest().createPlayer()), {
+            width: 640,
+            height: 480,
+            style: "width: 640px; height: 480px",
+        }).load({ url: "https://lucywan.github.io/Save_Onionhead_Flash.swf" });
 
 </body>
 </html>
