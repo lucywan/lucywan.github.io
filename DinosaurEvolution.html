@@ -2,7 +2,16 @@
 <html>
 <body>
 
-<embed width="640" height="480" src="https://lucywan.github.io/DinosaurEvolution.swf">
+  <div id="dinosaurevolution"></div>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+        <script>
+
+Object.assign(document.getElementById("dinosaurevolution").appendChild(window.RufflePlayer.newest().createPlayer()), {
+            width: 640,
+            height: 480,
+        }).load({ url: "https://lucywan.github.io/DinosaurEvolution.swf" });
+        </script>
+
 
 </body>
 </html>
